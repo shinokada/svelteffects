@@ -10,9 +10,8 @@
     lineHeight?: string;
     fontWeight?: string;
     textShadow?: string;
-    height?: string;
-    width?: string;
     padding?: string;
+    margin?: string;
   }
 
   let { 
@@ -23,8 +22,7 @@
     lineHeight = '1.5', 
     fontWeight = '400', 
     padding = '1rem',
-    height = 'auto',  // Changed to 'auto'
-    width = 'auto',   // Changed to 'auto'
+    margin,
     textShadow = "-0.0075em 0.0075em 0 #fef2f6, 0.005em 0.005em 0 #f6a5c1, 0.01em 0.01em 0 #f7aac4, 0.015em 0.015em #f7aec7, 0.02em 0.02em 0 #f8b3ca, 0.025em 0.025em 0 #f8b7cd, 0.03em 0.03em 0 #f8bcd0, 0.035em 0.035em 0 #f9c0d3", 
     class:className,
     ...restProps 
@@ -35,6 +33,7 @@
   {...restProps}
   class={className}
   style="
+    display: inline-block;
     color: {color};
     background-color: {backgroundColor};
     font-size: {fontSize};
@@ -42,8 +41,7 @@
     font-weight: {fontWeight};
     text-shadow: {textShadow};
     padding: {padding};
-    height: {height};
-    width: {width};
+    margin: {margin};
   "
 >
   {@render children()}
