@@ -2,9 +2,12 @@
   import { Neon } from '$lib';
 </script>
 
-<Neon bgColor="#000000" size="200"  align="center" padding="100px">
+<div class="flex flex-col max-w-6xl mx-auto items-center justify-center pt-8">
+<Neon bgColor="#002255" shadowColor="#0d187c" size="200"  align="center" padding="100px">
   Svelte
   </Neon>
 
+
  
-  <h1 class="[text-shadow:_0_1px_0_var(--tw-shadow-color)]">Hello</h1>
+  <h2 class="text-3xl">Hello</h2>  
+</div>
