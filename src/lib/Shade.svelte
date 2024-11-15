@@ -5,16 +5,15 @@
     children: Snippet;
     bgColor?: string;
     color?: string;
-    height?: string;
+    padding?: string;
     size?: number;
-    width?: string;
   }
-  let { children, bgColor = '#d0d0d0', color = '#444', height = '300px', size = 10, width = '1000px' }: Props = $props();
+  let { children, bgColor = '#d0d0d0', color = '#444',  size = 10, padding="50px" }: Props = $props();
 </script>
 
 
 <div class="container" style="background-color: {bgColor};
-     color: {color}; height: {height}; width: {width};">
+     color: {color}; padding: {padding};">
   <svg class="svg-text" style="font-size: {size}vw;" width="100%" height="1.5em" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <filter id="drop-stroke-shadow">
