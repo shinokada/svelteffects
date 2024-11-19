@@ -1,9 +1,7 @@
 <script lang="ts">
-  import { ThreeD } from '$lib';
+  // import { ThreeD } from '$lib';
 </script>
-
-<h1><ThreeD fontSize="50px" padding="3rem">Welcome to your library project</ThreeD></h1>
-
+<h1>Svelteffects</h1>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab adipisci deleniti minima fugiat laboriosam, incidunt ut corporis iure error magni animi sit placeat cupiditate nesciunt ex voluptates odit a molestiae.</p>
 
 
