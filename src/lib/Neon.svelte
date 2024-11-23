@@ -4,23 +4,23 @@
 	interface Props {
 		children: Snippet;
 		bgColor?: string;
-    shadowColor?: string;
+		shadowColor?: string;
 		size?: string;
 		align?: string;
 		padding?: string;
 		neonContainer?: string;
-    color?: string;
+		color?: string;
 	}
 
 	let {
 		children,
 		neonContainer = 'w-[1000px] h-[500px] flex justify-center items-center',
 		bgColor = '#192824',
-    shadowColor = '#FF9E9E',
+		shadowColor = '#FF9E9E',
 		size = '50',
 		align = 'center',
 		padding = '100px',
-    color = 'white'
+		color = 'white'
 	}: Props = $props();
 </script>
 
@@ -28,7 +28,10 @@
 	class={neonContainer}
 	style="background-color: {bgColor}; --shadow-color: {shadowColor}; --shadow-color-light: white;"
 >
-	<div class="neon" style="font-size: {size}px; text-align: {align}; padding: {padding}; color: {color};">
+	<div
+		class="neon"
+		style="font-size: {size}px; text-align: {align}; padding: {padding}; color: {color};"
+	>
 		{@render children()}
 	</div>
 </div>
