@@ -4,4 +4,4 @@
 
 <Shade>HOVER ME</Shade>
 
-<Shade bgColor="#000000" color="#ffffff" height="400px" size={12} width="800px">Custom Text</Shade>
+<Shade bgColor="#000000" color="#ffffff" size={12}>Custom Text</Shade>

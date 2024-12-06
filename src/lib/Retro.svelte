@@ -98,6 +98,7 @@
 		);
 		-webkit-text-stroke: 0.01em #94a0b9;
 		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
 	h2 {
@@ -135,5 +136,6 @@
 		bottom: -120vh;
 		transform: rotateX(-100deg);
 		-webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%);
+		mask-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 80%);
 	}
 </style>
